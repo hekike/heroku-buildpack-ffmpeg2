@@ -20,5 +20,5 @@ echo "exporting PATH and LIBRARY_PATH" | indent
 PROFILE_PATH="$BUILD_DIR/.profile.d/ffmpeg.sh"
 mkdir -p $(dirname $PROFILE_PATH)
 echo $PATH
-echo 'export PATH="$PATH:$VENDOR_DIR"' >> $PROFILE_PATH
+echo 'export PATH="$PATH:vendor"' >> $PROFILE_PATH
 echo $PATH
