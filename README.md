@@ -30,3 +30,9 @@ Hacking
 If you want to use your own ffmpeg binary, fork and rewrite following line.
 
 https://github.com/shunjikonishi/heroku-buildpack-ffmpeg/blob/master/bin/compile#L10
+
+It uses
+-------
+ffmpeg binary by http://johnvansickle.com/ffmpeg/releases/ffmpeg-1.2.5-64bit-static.tar.bz2
+
+The binary is stored at gh-pages branch in this repo.
